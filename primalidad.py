@@ -10,11 +10,13 @@ def primo(num):
 		return True
 	else:
 		return False
+
 def main():
 	num = int(input('Escribe un número: '))
 	if primo(num):
 		print('es primo.')
 	else:
 		print('no es primo.')
+
 if __name__ == '__main__':
 	main()
